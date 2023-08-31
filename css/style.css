@@ -21,12 +21,15 @@ img {
   max-width: 100%;
 }
 
+
+
 .bikcraft {
   display: grid;
   margin-top: 60px;
   gap: 60px;
   justify-items: center;
   border-radius: 4px;
+  position: relative;
 }
 
 .nav a {
@@ -129,6 +132,21 @@ img {
   background-color: white;
   padding: 40px;
 }
+
+.topo{
+  position: fixed;
+  padding: 10px;
+  right: 10px;
+  bottom: 150px;
+  border-radius: 100%;
+
+}
+
+.material-symbols-outlined {
+  color:#6f61c0;
+
+  }
+
 
 @media screen and (max-width: 793px) {
  
