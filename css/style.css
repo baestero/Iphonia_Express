@@ -119,6 +119,7 @@ img {
 }
 
 .especificacoes p {
+  color: grey;
   grid-column: 2/3;
 }
 
@@ -151,6 +152,10 @@ img {
     place-items: center;
     grid-column: auto;
     
+  }
+
+  .especificacoes p{
+    font-size: 17px;
   }
 
   .foto {
