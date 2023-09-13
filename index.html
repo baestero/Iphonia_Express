@@ -13,78 +13,79 @@
 <body>
   <div class="bikcraft">
 
-    <h1 id="inicio" class="tittle">iPhonia Express</h1>
+    <header class="header">
+      <h1 id="inicio" class="tittle">iPhonia Express</h1>
 
-    <div class="nav">
-      <a href="#">INICIO</a>
-      <a href="#produtos">PRODUTOS</a>
-      <a href="#">LOJAS</a>
-      <a href="#">CONTATO</a>
-    </div>
-
-    <div class="anuncio">
-
-      <div class="descricao">
-        <h1>iPhone 14: A Evolução da Tecnologia Portátil</h1>
-        <p>O iPhone 14 representa uma nova era na tecnologia portátil, combinando design elegante, inovação de ponta e desempenho excepcional para atender às demandas do mundo moderno.</p>
-        <a class="botao" href="#">VER MAIS</a>
-      </div>
-
-      <img class="foto" src="./img/iphone14.jpg" alt="Iphone 14">
-
-      <div class="vantagens">
-        <h3>O QUE NOS TORNA DIFERENTES</h3>
-      </div>
-
-
-      <div class="especificacoes">
-        <div class="especificacoes-item">
-          <img src="./img/iphone (1).png" alt="iPhone">
-          <h3>Design Deslumbrante</h3>
-          <p>O iPhone 14 exibe linhas sofisticadas e contornos suaves que se fundem perfeitamente.</p>
-        </div>
-
-        <div class="especificacoes-item">
-          <img src="./img/processador.png" alt="Processaor">
-          <h3>Desempenho Poderoso</h3>
-          <p>Equipado com o chip A16, uma maravilha da engenharia de semicondutores.</p>
-        </div>
-
-        <div class="especificacoes-item">
-          <img src="./img/camera.png" alt="">
-          <h3>Fotografia Avançada</h3>
-          <p>Sistema de câmera tripla de 16 MP redefine a fotografia móvel, Com recursos aprimorados.</p>
-        </div>
-      </div>
-    </div>
-
-    <h1>Produtos</h1>
+      <ul class="nav" aria-label="primaria">
+        <li><a href="#">INICIO</a></li>
+        <li><a href="#produtos">PRODUTOS</a></li>
+        <li><a href="#">LOJAS</a></li>
+        <li><a href="#">CONTATO</a></li>
+      </ul>
+    </header>
 
     <div class="anuncio">
 
-      <div id="produtos" class="descricao2">
-        <h1>Liberte a Sua Música com os AirPods</h1>
+      <article class="conteudo">
+        <div class="descricao" aria-labelledby="label-introducao">
+          <h1 id="label-introducao">iPhone 14: A Evolução da Tecnologia Portátil</h1>
+          <p>O iPhone 14 representa uma nova era na tecnologia portátil, combinando design elegante, inovação de ponta e desempenho excepcional para atender às demandas do mundo moderno.</p>
+          <a class="botao" href="#">VER MAIS</a>
+        </div>
+        <img class="foto" src="./img/iphone14.jpg" alt="Iphone 14">
+      </article>
+
+
+      <article class="conteudo2">
+        <div class="vantagens" aria-labelledby="label-vantagens">
+          <h3 id="label-vantagens">O QUE NOS TORNA DIFERENTES</h3>
+        </div>
+
+        <ul class="especificacoes">
+          <li class="especificacoes-item">
+            <img src="./img/iphone (1).png" alt="iPhone">
+            <h3>Design Deslumbrante</h3>
+            <p>O iPhone 14 exibe linhas sofisticadas e contornos suaves que se fundem perfeitamente.</p>
+          </li>
+
+          <li class="especificacoes-item">
+            <img src="./img/processador.png" alt="Processador">
+            <h3>Desempenho Poderoso</h3>
+            <p>Equipado com o chip A16, uma maravilha da engenharia de semicondutores.</p>
+          </li>
+
+          <li class="especificacoes-item">
+            <img src="./img/camera.png" alt="Câmera">
+            <h3>Fotografia Avançada</h3>
+            <p>Sistema de câmera tripla de 16 MP redefine a fotografia móvel, Com recursos aprimorados.</p>
+          </li>
+        </ul>
+        </div>
+    </article>
+
+
+    <div aria-labelledby="label-produtos">
+      <h1 id="label-produtos">Produtos</h1>
+    </div>
+
+    <article class="anuncio">
+      <div class="descricao2" aria-labelledby="label-airpods">
+        <h1 id="label-airpods">Liberte a Sua Música com os AirPods</h1>
         <p>Com os AirPods, a Apple criou uma experiência acústica verdadeiramente envolvente. Estes auscultadores adaptam-se ao contorno único dos seus ouvidos. </p>
         <a class="botao" href="#">VER MAIS</a>
       </div>
-
-      <img class="" src="./img/airpod.jpg" alt="air pods">
-
-
-    </div>
+      <img src="./img/airpod.jpg" alt="air pods">
+    </article>
 
 
-    <div class="anuncio">
-
-      <div class="descricao2">
-        <h1>Elevando o Poder da Computação com MacBook</h1>
+    <article class="anuncio">
+      <div class="descricao2" aria-labelledby="label-macbook">
+        <h1 id="label-macbook">Elevando o Poder da Computação com MacBook</h1>
         <p>Descubra o equilíbrio perfeito entre design elegante e desempenho poderoso com o MacBook da Apple.</p>
         <a class="botao" href="#">VER MAIS</a>
       </div>
-
       <img src="./img/macbook.jpg" alt="">
-
-    </div>
+    </article>
 
 
 
