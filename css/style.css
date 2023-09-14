@@ -30,7 +30,6 @@ button {
   margin: 2px 2px 0px;
 }
 
-
 .header {
   display: grid;
   justify-items: center;
@@ -79,7 +78,7 @@ button {
   justify-content: center;
 }
 
-.anuncio{
+.anuncio {
   display: grid;
   justify-content: center;
   align-content: center;
@@ -205,7 +204,7 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0 20px;
-  justify-items:center;
+  justify-items: center;
   max-width: 1000px;
 }
 
@@ -215,15 +214,12 @@ button {
   background: white;
   padding: 20px;
   border-radius: 8px;
- 
-
 }
 
 .card img {
   max-width: 100%;
   border-radius: 8px;
 }
-
 
 .subpreco,
 .selecionar-cor {
@@ -232,8 +228,6 @@ button {
   margin-bottom: 4px;
   font-weight: 600;
 }
-
-
 
 .btn1 {
   background-color: #383636;
@@ -251,7 +245,7 @@ button {
   background-color: #e0e0e0;
 }
 
-.btn5{
+.btn5 {
   background-color: #b52421;
 }
 
@@ -282,12 +276,13 @@ button {
     grid-template-columns: 1fr;
   }
 
-  .nav {
-    padding: 20px;
+  .header {
+    gap: 30px;
   }
 
   .nav a {
-    padding: 12px;
+    display: block;
+    padding: 0.5rem 1rem;
     font-size: 0.9rem;
   }
 
@@ -317,9 +312,9 @@ button {
     text-align: center;
   }
 
-  .grid-card{
+  .grid-card {
     grid-template-columns: 1fr;
     gap: 30px;
-    max-width: 400px;
+    max-width: 350px;
   }
 }
