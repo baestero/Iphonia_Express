@@ -14,12 +14,22 @@ p {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 img {
   max-width: 100%;
 }
+
+button {
+  border-radius: 100px;
+  border: none;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  margin: 2px 2px 0px;
+}
+
 
 .header {
   display: grid;
@@ -69,7 +79,7 @@ img {
   justify-content: center;
 }
 
-.anuncio {
+.anuncio{
   display: grid;
   justify-content: center;
   align-content: center;
@@ -123,7 +133,10 @@ img {
   background: white;
 }
 
-.botao {
+.botao,
+.card-btn,
+.card-btn2 {
+  display: block;
   padding: 15px 30px;
   border-radius: 4px;
   background: #6f61c0;
@@ -188,6 +201,72 @@ img {
   border-radius: 100%;
 }
 
+.grid-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0 20px;
+  justify-items:center;
+  max-width: 1000px;
+}
+
+.card {
+  display: grid;
+  gap: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+ 
+
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+
+.subpreco,
+.selecionar-cor {
+  color: grey;
+  font-size: 0.8rem;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+
+
+.btn1 {
+  background-color: #383636;
+}
+
+.btn2 {
+  background-color: #dbcaae;
+}
+
+.btn3 {
+  background-color: #72647b;
+}
+
+.btn4 {
+  background-color: #e0e0e0;
+}
+
+.btn5{
+  background-color: #b52421;
+}
+
+.card-btn {
+  text-align: center;
+}
+
+.card-btn2 {
+  text-align: center;
+  background-color: white;
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .material-symbols-outlined {
   color: #6f61c0;
 }
@@ -236,5 +315,11 @@ img {
 
   .especificacoes {
     text-align: center;
+  }
+
+  .grid-card{
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 400px;
   }
 }
