@@ -216,10 +216,7 @@ button {
   border-radius: 8px;
 }
 
-.card img {
-  max-width: 100%;
-  border-radius: 8px;
-}
+
 
 .subpreco,
 .selecionar-cor {
@@ -249,8 +246,17 @@ button {
   background-color: #b52421;
 }
 
+.btn6{
+  background-color:#495c86
+
+}
+
 .card-btn {
   text-align: center;
+}
+
+.card-btn:hover{
+  background: #bf94ff;
 }
 
 .card-btn2 {
@@ -269,7 +275,7 @@ button {
   color: #bf94ff;
 }
 
-@media screen and (max-width: 793px) {
+@media screen and (max-width: 1000px) {
   .anuncio,
   .conteudo,
   .conteudo2 {
@@ -280,10 +286,13 @@ button {
     gap: 30px;
   }
 
+ .nav{
+  gap: 10px;
+ }
   .nav a {
     display: block;
-    padding: 0.5rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
   }
 
   .descricao,
@@ -305,8 +314,9 @@ button {
     gap: 30px;
     margin-top: 20px;
   }
-  .vantagens {
+  .vantagens h3 {
     text-align: center;
+    font-size:2.8rem;
   }
 
   .especificacoes {
