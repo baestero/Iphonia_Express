@@ -275,7 +275,7 @@ button {
   color: #bf94ff;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
   .anuncio,
   .conteudo,
   .conteudo2 {
