@@ -393,3 +393,30 @@ button {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .card {
+    width: 80%;
+  }
+
+  .vantagens h3 {
+    font-size: 40px;
+    color: #bf94ff;
+    text-align: center;
+  }
+
+  .vantagens {
+    display: grid;
+    align-content: center;
+    padding: 0px;
+    background: #020001;
+  }
+
+  #contato {
+    width: 80%;
+  }
+
+  .contato-item2 img {
+    width: 70%;
+  }
+}
