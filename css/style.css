@@ -376,4 +376,20 @@ button {
     gap: 30px;
     max-width: 350px;
   }
+
+  #contato {
+    grid-template-columns: 1fr;
+  }
+
+  #contato {
+    grid-template-columns: 1fr;
+    width: 350px;
+  }
+  .contato-item {
+    text-align: center;
+    margin: 20px auto;
+  }
+  .contato-item2 img {
+    width: 100%;
+  }
 }
