@@ -24,7 +24,7 @@
       </ul>
     </header>
 
-    <div class="anuncio js-scroll">
+    <div data-anime="scroll" class="anuncio">
 
       <article class="conteudo">
         <div class="descricao" aria-labelledby="label-introducao">
@@ -68,7 +68,7 @@
       <h1 id="label-produtos">Produtos</h1>
     </div>
 
-    <article class="anuncio js-scroll">
+    <article data-anime="scroll" class="anuncio">
       <div class="descricao2" aria-labelledby="label-airpods">
         <h1 id="label-airpods">Liberte a Sua Música com os AirPods</h1>
         <p>Com os AirPods, a Apple criou uma experiência acústica verdadeiramente envolvente. Estes auscultadores adaptam-se ao contorno único dos seus ouvidos. </p>
@@ -78,7 +78,7 @@
     </article>
 
 
-    <article class="anuncio js-scroll">
+    <article data-anime="scroll" class="anuncio">
       <div class="descricao2" aria-labelledby="label-macbook">
         <h1 id="label-macbook">Elevando o Poder da Computação com MacBook</h1>
         <p>Descubra o equilíbrio perfeito entre design elegante e desempenho poderoso com o MacBook da Apple.</p>
@@ -93,7 +93,7 @@
     </div>
 
 
-    <article class="grid-card js-scroll">
+    <article data-anime="scroll" class="grid-card">
       <article class="card">
         <img src="./img/colors black.jpeg" alt="">
         <h2>Apple iPhone 14 Pro 256GB 6,1" 48MP - IOS 5G </h2>
@@ -170,19 +170,23 @@
       <h1 id="label-contato">Contato</h1>
     </div>
 
-    <article id="contato" class="js-scroll">
+    <article id="contato" data-anime="scroll">
 
       <aside class="contato-item2">
         <img src="./img/mapa.png" alt="">
       </aside>
 
-      <aside class="contato-item">
-        <p>contato@iphoniaexpress.com </p>
-        <p>instagram: @iPhonia_Ex</p>
-        <p>Avenida Afonso Pena, nº 77</p>
-        <p>São Paulo - SP</p>
-      </aside>
+      <ul class="contato-item">
+        <li>contato@iphoniaexpress.com </li>
+        <li>instagram: @iPhonia_Ex</li>
+        <li>Avenida Afonso Pena, nº 77</li>
+        <li>São Paulo - SP</li>
+        <li data-semana='1,2,3,4,5' data-horario='8,18' data-fim='6' data-sabado='8,11'>Seg à Sexta das 8h às 18h</li>
+        <li>Sábado das 8h as 14h
+          <p class="funcionamento">Fechado agora</p>
+        </li>
 
+      </ul>
     </article>
 
 
@@ -197,7 +201,7 @@
     </footer>
   </div>
 
-  <script src="./js/script.js"></script>
+  <script type="module" src="./js/script.js"></script>
 
 </body>
 
