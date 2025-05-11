@@ -22,7 +22,7 @@ Neste projeto você encontrará:
 
 Adicionei abaixo um preview do projeto para visualização rápida:
 
-![Preview do Projeto]()
+![Preview do Projeto](https://github.com/baestero/Iphonia_Express/blob/main/Captura%20de%20tela%202025-05-11%20195324.png)
 
 ## 🛠 Tecnologias Utilizadas
 
