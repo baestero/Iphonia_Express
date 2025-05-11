@@ -16,7 +16,7 @@ Neste projeto você encontrará:
 ## 🔗 Acesse o Projeto
 
 **Visite o meu projeto:**
-[https://baestero.github.io/iphonia-express/](https://baestero.github.io/iphonia-express/)
+[baestero.github.io/Iphonia_Express/](baestero.github.io/Iphonia_Express/)
 
 ## 🖼 Preview
 
